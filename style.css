@@ -1,0 +1,68 @@
+/*
+	Diese CSS-Klasse wird ausschließlich in MeineSeite.html verwendet
+*/
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: lightgray;
+    overflow: auto;
+}
+header h1{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.nav li a{
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+main{
+    width: 70%;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+
+    margin-bottom: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media only screen and (min-width: 1400px) {
+    .column_left{
+        float: left;
+        width: 45%;
+        padding-right: 10%;
+        margin-bottom: 60px;
+    }
+    .column_right{
+        float: right;
+        width: 45%;
+        margin-bottom: 60px;
+    }
+}
